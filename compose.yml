@@ -1,0 +1,6 @@
+version: '3.3'
+services:
+  frontend:
+    image: 13819773795/project-backend:latest
+    ports:
+      - "8080:80"
